@@ -1,6 +1,6 @@
 <h1 align="center">Hey, I'm Darsh</h1>
 <h3 align="center">Currently Learning ML/DSA</h3>
-<img align="right alt="coding" width="400" src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif"
+<img align="right alt="buri-buri-zaemon" width="400" src="https://raw.githubusercontent.com/darshpatel1052/darshpatel1052/main/buri-buri-zaemon.gif"
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=darhspatel1052&label=Profile%20views&color=0e75b6&style=flat" alt="darhspatel1052" /> </p>
 
 
