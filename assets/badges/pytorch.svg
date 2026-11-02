@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="106" height="30" viewBox="0 0 106 30" role="img" aria-label="PyTorch">
+  <title>PyTorch</title>
+  <rect width="106" height="30" fill="#c53d29"/>
+  <rect width="34" height="30" fill="#ffffff"/><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" x="7" y="5" width="20" height="20"><path fill="#EE4C2C" d="M100.1 38.3l-9.2 9.2c15.1 15.1 15.1 39.4 0 54.3-15.1 15.1-39.4 15.1-54.3 0-15.1-15.1-15.1-39.4 0-54.3l24-24 3.4-3.4V2L27.8 38.2C7.7 58.3 7.7 90.8 27.8 111s52.6 20.1 72.4 0c20.1-20.2 20.1-52.5-.1-72.7z" /><circle fill="#EE4C2C" transform="rotate(-88.939 82.069 29.398) scale(.99997)" cx="82.1" cy="29.4" r="6.7" /></svg>
+  <text x="42" y="19.5" fill="#ffffff" font-family="DejaVu Sans,Verdana,sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.65">PYTORCH</text>
+</svg>

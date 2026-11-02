@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="121" height="30" viewBox="0 0 121 30" role="img" aria-label="Cloud Run">
+  <title>Cloud Run</title>
+  <rect width="121" height="30" fill="#3265b5"/>
+  <rect width="34" height="30" fill="#ffffff"/><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" x="7" y="5" width="20" height="20"><path fill="#aecbfa" d="M128 63.965 38.957 0l22.26 63.966Z" /><path fill="#4285f4" d="M38.957 128 128 63.965H61.217zM16.696 63.965 0 128l22.332-10.718 16.625-53.317Z" /><path fill="#aecbfa" d="M22.332 10.649 0-.001l16.696 63.966h22.26Z" /></svg>
+  <text x="42" y="19.5" fill="#ffffff" font-family="DejaVu Sans,Verdana,sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.65">CLOUD RUN</text>
+</svg>
