@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="82" height="23" viewBox="0 0 82 23" role="img" aria-label="scikit-learn">
+  <title>scikit-learn</title>
+  <rect width="82" height="23" rx="4" fill="#243447"/>
+  <rect width="3" height="23" rx="1.5" fill="#f89939"/>
+
+  <text x="10" y="15.5" fill="#f0f6fc" font-family="DejaVu Sans,Verdana,sans-serif" font-size="10.5" font-weight="500">scikit-learn</text>
+</svg>

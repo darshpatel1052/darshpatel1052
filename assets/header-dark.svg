@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="142" viewBox="0 0 840 142" role="img" aria-labelledby="title desc">
+  <title id="title">Darsh Patel — Make it happen.</title>
+  <desc id="desc">A compact header with video, verified-code, and machine-learning symbols inspired by PeerShare, DevSentinel, and AlgoViz.</desc>
+  <rect x="1" y="1" width="838" height="140" rx="14" fill="#111c2a" stroke="#2b4057"/>
+  <path d="M1 24V118Q1 141 24 141" fill="none" stroke="#70d6dc" stroke-width="3"/>
+  <text x="30" y="64" fill="#f0f6fc" font-family="DejaVu Sans,Verdana,sans-serif" font-size="37" font-weight="700" letter-spacing="-1">Darsh Patel</text>
+  <text x="32" y="99" fill="#b1c3d5" font-family="DejaVu Sans,Verdana,sans-serif" font-size="18">Make it happen.</text>
+  <g transform="translate(547 37)" fill="none" stroke="#70d6dc" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect width="68" height="68" rx="15" fill="#163640" stroke="none"/>
+    <rect x="14" y="19" width="40" height="30" rx="5"/>
+    <path d="M30 27L41 34L30 41Z" fill="#70d6dc" stroke="none"/>
+  </g>
+  <g transform="translate(630 37)" fill="none" stroke="#7d9ee3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect width="68" height="68" rx="15" fill="#1b2c4a" stroke="none"/>
+    <path d="M34 13L50 20V33C50 44 42 51 34 55C26 51 18 44 18 33V20Z"/>
+    <path d="M26 33L32 39L43 27"/>
+  </g>
+  <g transform="translate(713 37)" fill="none" stroke="#a08be0" stroke-width="2.5" stroke-linecap="round">
+    <rect width="68" height="68" rx="15" fill="#2d2546" stroke="none"/>
+    <path d="M17 16V51H53M23 43L47 22"/>
+    <g fill="#a08be0" stroke="none"><circle cx="24" cy="35" r="3"/><circle cx="32" cy="39" r="3"/><circle cx="36" cy="26" r="3"/><circle cx="45" cy="32" r="3"/><circle cx="49" cy="18" r="3"/></g>
+  </g>
+</svg>
