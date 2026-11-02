@@ -1,0 +1,56 @@
+name: Contribution graph
+
+on:
+  schedule:
+    - cron: "35 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/snake.yml
+      - scripts/prepare-snake.py
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-koi
+  cancel-in-progress: false
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the profile
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      - name: Generate Darsh's contribution snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: darshpatel1052
+          github_token: ${{ github.token }}
+          outputs: |
+            ${{ runner.temp }}/profile-snake/snake-light.svg?palette=github-light&color_snake=#0f766e
+            ${{ runner.temp }}/profile-snake/snake-dark.svg?palette=github-dark&color_snake=#56e0bd
+
+      - name: Validate and add motion preferences
+        env:
+          SNAKE_OUTPUT: ${{ runner.temp }}/profile-snake
+        run: python3 scripts/prepare-snake.py "$SNAKE_OUTPUT"
+
+      - name: Publish only changed graph assets
+        shell: bash
+        run: |
+          git add -- assets/activity/snake-*.svg
+          if git diff --cached --quiet; then
+            echo "The contribution graph is unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --message "chore: refresh contribution snake"
+          git pull --rebase origin main
+          git push origin HEAD:main
