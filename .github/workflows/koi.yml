@@ -1,0 +1,71 @@
+name: Profile koi
+
+on:
+  schedule:
+    - cron: "20 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/koi.yml]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-koi
+  cancel-in-progress: false
+
+jobs:
+  koi:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the profile
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      - name: Draw Darsh's koi from public activity
+        uses: yalongwastaken/git-koi@7305e9b1fadee6f43d3b4fa543a25d4cde79856e # v1.0.2
+        with:
+          login: darshpatel1052
+          body: asagi
+          output-dir: ${{ runner.temp }}/profile-koi
+          token: ${{ github.token }}
+
+      - name: Validate both images before replacing the last good output
+        env:
+          KOI_OUTPUT: ${{ runner.temp }}/profile-koi
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import os
+          import struct
+          from pathlib import Path
+
+          output = Path(os.environ["KOI_OUTPUT"])
+          gif = (output / "koi.gif").read_bytes()
+          png = (output / "koi.png").read_bytes()
+          assert gif[:6] in (b"GIF87a", b"GIF89a"), "Invalid GIF"
+          assert len(gif) > 100 and gif[-1:] == b";", "Incomplete GIF"
+          assert png[:8] == b"\x89PNG\r\n\x1a\n", "Invalid PNG"
+          assert png[12:16] == b"IHDR" and b"IEND" in png[-12:], "Incomplete PNG"
+          assert struct.unpack("<HH", gif[6:10]) == struct.unpack(">II", png[16:24]), "Image sizes differ"
+          PY
+          mkdir -p assets/koi
+          install -m 644 "$KOI_OUTPUT/koi.gif" assets/koi/koi.gif
+          install -m 644 "$KOI_OUTPUT/koi.png" assets/koi/koi.png
+
+      - name: Commit only changed koi assets
+        shell: bash
+        run: |
+          git add -- assets/koi/koi.gif assets/koi/koi.png
+          if git diff --cached --quiet; then
+            echo "The koi is unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --message "chore: refresh public-activity koi"
+          git pull --rebase origin main
+          git push origin HEAD:main
