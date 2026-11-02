@@ -1,0 +1,287 @@
+{
+  "assets/badges/c.svg": {
+    "url": "https://img.shields.io/badge/C-385473?style=for-the-badge&logo=c&logoColor=white",
+    "text": "C",
+    "service": "Shields.io"
+  },
+  "assets/badges/cplusplus.svg": {
+    "url": "https://img.shields.io/badge/C%2B%2B-00599c?style=for-the-badge&logo=cplusplus&logoColor=white",
+    "text": "C++",
+    "service": "Shields.io"
+  },
+  "assets/badges/go.svg": {
+    "url": "https://img.shields.io/badge/Go-087b98?style=for-the-badge&logo=go&logoColor=white",
+    "text": "Go",
+    "service": "Shields.io"
+  },
+  "assets/badges/java.svg": {
+    "url": "https://img.shields.io/badge/Java-b62d32?style=for-the-badge&logo=openjdk&logoColor=white",
+    "text": "Java",
+    "service": "Shields.io"
+  },
+  "assets/badges/python.svg": {
+    "url": "https://img.shields.io/badge/Python-306998?style=for-the-badge&logo=python&logoColor=white",
+    "text": "Python",
+    "service": "Shields.io"
+  },
+  "assets/badges/typescript.svg": {
+    "url": "https://img.shields.io/badge/TypeScript-3178c6?style=for-the-badge&logo=typescript&logoColor=white",
+    "text": "TypeScript",
+    "service": "Shields.io"
+  },
+  "assets/badges/javascript.svg": {
+    "url": "https://img.shields.io/badge/JavaScript-f7df1e?style=for-the-badge&logo=javascript&logoColor=black",
+    "text": "JavaScript",
+    "service": "Shields.io"
+  },
+  "assets/badges/sql.svg": {
+    "url": "https://img.shields.io/badge/SQL-256a87?style=for-the-badge",
+    "text": "SQL",
+    "service": "Shields.io"
+  },
+  "assets/badges/react.svg": {
+    "url": "https://img.shields.io/badge/React-167b99?style=for-the-badge&logo=react&logoColor=white",
+    "text": "React",
+    "service": "Shields.io"
+  },
+  "assets/badges/nextjs.svg": {
+    "url": "https://img.shields.io/badge/Next.js-24292f?style=for-the-badge&logo=nextdotjs&logoColor=white",
+    "text": "Next.js",
+    "service": "Shields.io"
+  },
+  "assets/badges/nodejs.svg": {
+    "url": "https://img.shields.io/badge/Node.js-377a2f?style=for-the-badge&logo=nodedotjs&logoColor=white",
+    "text": "Node.js",
+    "service": "Shields.io"
+  },
+  "assets/badges/fastify.svg": {
+    "url": "https://img.shields.io/badge/Fastify-30303d?style=for-the-badge&logo=fastify&logoColor=white",
+    "text": "Fastify",
+    "service": "Shields.io"
+  },
+  "assets/badges/fastapi.svg": {
+    "url": "https://img.shields.io/badge/FastAPI-007f73?style=for-the-badge&logo=fastapi&logoColor=white",
+    "text": "FastAPI",
+    "service": "Shields.io"
+  },
+  "assets/badges/flask.svg": {
+    "url": "https://img.shields.io/badge/Flask-34343d?style=for-the-badge&logo=flask&logoColor=white",
+    "text": "Flask",
+    "service": "Shields.io"
+  },
+  "assets/badges/grpc.svg": {
+    "url": "https://img.shields.io/badge/gRPC-087e85?style=for-the-badge",
+    "text": "gRPC",
+    "service": "Shields.io"
+  },
+  "assets/badges/webrtc.svg": {
+    "url": "https://img.shields.io/badge/WebRTC-b62938?style=for-the-badge",
+    "text": "WebRTC",
+    "service": "Shields.io"
+  },
+  "assets/badges/rest.svg": {
+    "url": "https://img.shields.io/badge/REST-405eb5?style=for-the-badge",
+    "text": "REST",
+    "service": "Shields.io"
+  },
+  "assets/badges/html5.svg": {
+    "url": "https://img.shields.io/badge/HTML5-b83a20?style=for-the-badge&logo=html5&logoColor=white",
+    "text": "HTML5",
+    "service": "Shields.io"
+  },
+  "assets/badges/css3.svg": {
+    "url": "https://img.shields.io/badge/CSS3-226bb0?style=for-the-badge&logo=css&logoColor=white",
+    "text": "CSS3",
+    "service": "Shields.io"
+  },
+  "assets/badges/tailwindcss.svg": {
+    "url": "https://img.shields.io/badge/Tailwind%20CSS-0e7490?style=for-the-badge&logo=tailwindcss&logoColor=white",
+    "text": "Tailwind CSS",
+    "service": "Shields.io"
+  },
+  "assets/badges/oracle.svg": {
+    "url": "https://img.shields.io/badge/Oracle%20DB-bc2d27?style=for-the-badge",
+    "text": "Oracle DB",
+    "service": "Shields.io"
+  },
+  "assets/badges/postgresql.svg": {
+    "url": "https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white",
+    "text": "PostgreSQL",
+    "service": "Shields.io"
+  },
+  "assets/badges/pgvector.svg": {
+    "url": "https://img.shields.io/badge/pgvector-425f8c?style=for-the-badge",
+    "text": "pgvector",
+    "service": "Shields.io"
+  },
+  "assets/badges/redis.svg": {
+    "url": "https://img.shields.io/badge/Redis-bd2b2d?style=for-the-badge&logo=redis&logoColor=white",
+    "text": "Redis",
+    "service": "Shields.io"
+  },
+  "assets/badges/kafka.svg": {
+    "url": "https://img.shields.io/badge/Kafka-4c3f74?style=for-the-badge&logo=apachekafka&logoColor=white",
+    "text": "Kafka",
+    "service": "Shields.io"
+  },
+  "assets/badges/bullmq.svg": {
+    "url": "https://img.shields.io/badge/BullMQ-a52f39?style=for-the-badge",
+    "text": "BullMQ",
+    "service": "Shields.io"
+  },
+  "assets/badges/mongodb.svg": {
+    "url": "https://img.shields.io/badge/MongoDB-287b36?style=for-the-badge&logo=mongodb&logoColor=white",
+    "text": "MongoDB",
+    "service": "Shields.io"
+  },
+  "assets/badges/chromadb.svg": {
+    "url": "https://img.shields.io/badge/ChromaDB-b04a26?style=for-the-badge",
+    "text": "ChromaDB",
+    "service": "Shields.io"
+  },
+  "assets/badges/supabase.svg": {
+    "url": "https://img.shields.io/badge/Supabase-176e54?style=for-the-badge&logo=supabase&logoColor=white",
+    "text": "Supabase",
+    "service": "Shields.io"
+  },
+  "assets/badges/firebase.svg": {
+    "url": "https://img.shields.io/badge/Firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black",
+    "text": "Firebase",
+    "service": "Shields.io"
+  },
+  "assets/badges/pytorch.svg": {
+    "url": "https://img.shields.io/badge/PyTorch-c53d29?style=for-the-badge&logo=pytorch&logoColor=white",
+    "text": "PyTorch",
+    "service": "Shields.io"
+  },
+  "assets/badges/scikitlearn.svg": {
+    "url": "https://img.shields.io/badge/scikit--learn-c45d15?style=for-the-badge&logo=scikitlearn&logoColor=white",
+    "text": "scikit-learn",
+    "service": "Shields.io"
+  },
+  "assets/badges/numpy.svg": {
+    "url": "https://img.shields.io/badge/NumPy-285e9a?style=for-the-badge&logo=numpy&logoColor=white",
+    "text": "NumPy",
+    "service": "Shields.io"
+  },
+  "assets/badges/pandas.svg": {
+    "url": "https://img.shields.io/badge/pandas-403268?style=for-the-badge&logo=pandas&logoColor=white",
+    "text": "pandas",
+    "service": "Shields.io"
+  },
+  "assets/badges/mastra.svg": {
+    "url": "https://img.shields.io/badge/Mastra-24292f?style=for-the-badge",
+    "text": "Mastra",
+    "service": "Shields.io"
+  },
+  "assets/badges/langchain.svg": {
+    "url": "https://img.shields.io/badge/LangChain-20664d?style=for-the-badge",
+    "text": "LangChain",
+    "service": "Shields.io"
+  },
+  "assets/badges/langgraph.svg": {
+    "url": "https://img.shields.io/badge/LangGraph-336a53?style=for-the-badge",
+    "text": "LangGraph",
+    "service": "Shields.io"
+  },
+  "assets/badges/ollama.svg": {
+    "url": "https://img.shields.io/badge/Ollama-444454?style=for-the-badge&logo=ollama&logoColor=white",
+    "text": "Ollama",
+    "service": "Shields.io"
+  },
+  "assets/badges/huggingface.svg": {
+    "url": "https://img.shields.io/badge/Hugging%20Face-ffd21e?style=for-the-badge&logo=huggingface&logoColor=black",
+    "text": "Hugging Face",
+    "service": "Shields.io"
+  },
+  "assets/badges/googleadk.svg": {
+    "url": "https://img.shields.io/badge/Google%20ADK-2861c0?style=for-the-badge",
+    "text": "Google ADK",
+    "service": "Shields.io"
+  },
+  "assets/badges/amazonwebservices.svg": {
+    "url": "https://img.shields.io/badge/AWS-b75e00?style=for-the-badge",
+    "text": "AWS",
+    "service": "Shields.io"
+  },
+  "assets/badges/googlecloud.svg": {
+    "url": "https://img.shields.io/badge/Google%20Cloud-3468bd?style=for-the-badge&logo=googlecloud&logoColor=white",
+    "text": "Google Cloud",
+    "service": "Shields.io"
+  },
+  "assets/badges/cloudrun.svg": {
+    "url": "https://img.shields.io/badge/Cloud%20Run-3265b5?style=for-the-badge&logo=googlecloud&logoColor=white",
+    "text": "Cloud Run",
+    "service": "Shields.io"
+  },
+  "assets/badges/docker.svg": {
+    "url": "https://img.shields.io/badge/Docker-176cbb?style=for-the-badge&logo=docker&logoColor=white",
+    "text": "Docker",
+    "service": "Shields.io"
+  },
+  "assets/badges/terraform.svg": {
+    "url": "https://img.shields.io/badge/Terraform-6344bd?style=for-the-badge&logo=terraform&logoColor=white",
+    "text": "Terraform",
+    "service": "Shields.io"
+  },
+  "assets/badges/githubactions.svg": {
+    "url": "https://img.shields.io/badge/GitHub%20Actions-245fc0?style=for-the-badge&logo=githubactions&logoColor=white",
+    "text": "GitHub Actions",
+    "service": "Shields.io"
+  },
+  "assets/badges/git.svg": {
+    "url": "https://img.shields.io/badge/Git-c14028?style=for-the-badge&logo=git&logoColor=white",
+    "text": "Git",
+    "service": "Shields.io"
+  },
+  "assets/badges/envoy.svg": {
+    "url": "https://img.shields.io/badge/Envoy-a02678?style=for-the-badge&logo=envoyproxy&logoColor=white",
+    "text": "Envoy",
+    "service": "Shields.io"
+  },
+  "assets/badges/prometheus.svg": {
+    "url": "https://img.shields.io/badge/Prometheus-bf3e27?style=for-the-badge&logo=prometheus&logoColor=white",
+    "text": "Prometheus",
+    "service": "Shields.io"
+  },
+  "assets/badges/grafana.svg": {
+    "url": "https://img.shields.io/badge/Grafana-b95a00?style=for-the-badge&logo=grafana&logoColor=white",
+    "text": "Grafana",
+    "service": "Shields.io"
+  },
+  "assets/badges/jaegertracing.svg": {
+    "url": "https://img.shields.io/badge/Jaeger-196a90?style=for-the-badge&logo=jaeger&logoColor=white",
+    "text": "Jaeger",
+    "service": "Shields.io"
+  },
+  "assets/badges/opentelemetry.svg": {
+    "url": "https://img.shields.io/badge/OpenTelemetry-565a91?style=for-the-badge&logo=opentelemetry&logoColor=white",
+    "text": "OpenTelemetry",
+    "service": "Shields.io"
+  },
+  "assets/badges/postman.svg": {
+    "url": "https://img.shields.io/badge/Postman-c34b25?style=for-the-badge&logo=postman&logoColor=white",
+    "text": "Postman",
+    "service": "Shields.io"
+  },
+  "assets/badges/portfolio.svg": {
+    "url": "https://img.shields.io/badge/Portfolio-176a4a?style=for-the-badge",
+    "text": "Portfolio",
+    "service": "Shields.io"
+  },
+  "assets/badges/linkedin.svg": {
+    "url": "https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge",
+    "text": "LinkedIn",
+    "service": "Shields.io"
+  },
+  "assets/badges/leetcode.svg": {
+    "url": "https://img.shields.io/badge/LeetCode-9f5800?style=for-the-badge",
+    "text": "LeetCode",
+    "service": "Shields.io"
+  },
+  "assets/badges/resume.svg": {
+    "url": "https://img.shields.io/badge/Resume-6554b8?style=for-the-badge",
+    "text": "Resume",
+    "service": "Shields.io"
+  }
+}

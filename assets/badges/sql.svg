@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="47" height="30" viewBox="0 0 47 30" role="img" aria-label="SQL">
-  <title>SQL</title>
-  <rect width="47" height="30" fill="#256a87"/>
-
-  <text x="12" y="19.5" fill="#ffffff" font-family="DejaVu Sans,Verdana,sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.65">SQL</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="48.75" height="28" role="img" aria-label="SQL"><title>SQL</title><g shape-rendering="crispEdges"><rect width="48.75" height="28" fill="#256a87"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><text transform="scale(.1)" x="243.75" y="175" textLength="247.5" font-weight="bold">SQL</text></g></svg>

@@ -1,0 +1,3 @@
+terminaltexteffects==0.15.0
+pyfiglet==1.0.4
+Pillow>=10.4,<13

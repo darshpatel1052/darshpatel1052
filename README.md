@@ -1,26 +1,20 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/header-dark-static.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/header-light-static.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="840" alt="Darsh Patel — software generalist. A selection-sort animation orders twelve bars from smallest to largest.">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero/blackhole-static.png">
+  <img src="assets/hero/blackhole.gif" width="100%" alt="Darsh Patel — a starfield spirals into a black hole, bursts outward, and resolves into my name.">
 </picture>
 
 > “What I cannot create, I do not understand.”
 > — [Richard Feynman](https://calteches.library.caltech.edu/684/1/ES65.2.2002.pdf)
 
-I'm Darsh, a **software generalist** studying AI & Data Science at **IIT Jodhpur**. I like knowing what the abstraction is hiding: the query plan underneath an ORM, the network behind an API, the data behind a model.
+I'm Darsh, an **AI & Data Science student at IIT Jodhpur**. I like building things, reading the code behind the tools I use, and understanding why they work.
 
-I've worked on database infrastructure at **Oracle** and real-time voice agents at **Reetape**. My projects move between backend engineering, distributed systems, AI, and whatever else the problem needs. The interesting part is getting far enough into a system that it stops feeling like a black box.
-
-- 🔬 Currently exploring **data-centric learning for small vision-language models** — better supervision, pseudo-label filtering, and verification.
-- 🧠 Other rabbit holes: **agent architectures, databases, distributed systems, and algorithms**.
-- ♟️ [LeetCode Knight](https://leetcode.com/u/darsh_0p/) · previously researched controllable video-weather translation at IIT Hyderabad.
+I learn by trying an idea, reading the source, and working through what I don't understand yet. I enjoy both the thinking and the implementation, and I'm happy to pick up unfamiliar tools along the way.
 
 <p>
   <a href="https://www.darshpatel.dev/"><img src="assets/badges/portfolio.svg" height="30" alt="Portfolio — darshpatel.dev"></a>
   <a href="https://www.linkedin.com/in/darshpatel52/"><img src="assets/badges/linkedin.svg" height="30" alt="LinkedIn — Darsh Patel"></a>
-  <a href="https://github.com/darshpatel1052"><img src="assets/badges/github.svg" height="30" alt="GitHub — darshpatel1052"></a>
   <a href="https://leetcode.com/u/darsh_0p/"><img src="assets/badges/leetcode.svg" height="30" alt="LeetCode — darsh_0p"></a>
+  <a href="https://www.darshpatel.dev/Darsh_Resume.pdf"><img src="assets/badges/resume.svg" height="30" alt="Résumé — Darsh Patel"></a>
 </p>
 
 ## 🧰 Stack
@@ -120,25 +114,19 @@ I've worked on database infrastructure at **Oracle** and real-time voice agents 
 
 A video platform with **adaptive HLS, creator tools, and verified peer delivery**. Browsers can opt into sharing video segments over WebRTC; the player checks their hashes before playback and retains HTTP delivery.
 
-<p><img src="assets/badges/go.svg" alt="Go"> <img src="assets/badges/nextjs.svg" alt="Next.js"> <img src="assets/badges/webrtc.svg" alt="WebRTC"> <img src="assets/badges/kafka.svg" alt="Kafka"></p>
-
-[Source ↗](https://github.com/darshpatel1052/PeerShare) · [Recorded product tour ↗](https://github.com/darshpatel1052/PeerShare#see-it-in-action)
+<p><img src="assets/badges/go.svg" height="30" alt="Go"> <img src="assets/badges/nextjs.svg" height="30" alt="Next.js"> <img src="assets/badges/webrtc.svg" height="30" alt="WebRTC"> <img src="assets/badges/kafka.svg" height="30" alt="Kafka"></p>
 
 ### 🛠 [DevSentinel](https://github.com/darshpatel1052/Devsentinel)
 
 A GitHub-native issue-repair assistant that **reproduces failures, investigates bounded fixes, verifies patches, and prepares draft pull requests** with evidence for review. Built as a locally runnable, single-operator tool; merging stays with the reviewer.
 
-<p><img src="assets/badges/typescript.svg" alt="TypeScript"> <img src="assets/badges/docker.svg" alt="Docker"> <img src="assets/badges/postgresql.svg" alt="PostgreSQL"> <img src="assets/badges/bullmq.svg" alt="BullMQ"></p>
-
-[Source ↗](https://github.com/darshpatel1052/Devsentinel) · [Local walkthrough ↗](https://github.com/darshpatel1052/Devsentinel/blob/main/docs/demo.md)
+<p><img src="assets/badges/typescript.svg" height="30" alt="TypeScript"> <img src="assets/badges/docker.svg" height="30" alt="Docker"> <img src="assets/badges/postgresql.svg" height="30" alt="PostgreSQL"> <img src="assets/badges/bullmq.svg" height="30" alt="BullMQ"></p>
 
 ### ◈ [AlgoViz](https://github.com/Priyanshu-Shah/AlgoViz)
 
 Co-developed an interactive ML lab for **regression, KNN, decision trees, SVM, neural networks, clustering, and PCA**, with core implementation across the React frontend and Flask backend. Change the data or a hyperparameter and inspect decision boundaries, clusters, and training curves.
 
-<p><img src="assets/badges/python.svg" alt="Python"> <img src="assets/badges/flask.svg" alt="Flask"> <img src="assets/badges/react.svg" alt="React"> <img src="assets/badges/scikitlearn.svg" alt="scikit-learn"></p>
-
-[Team repository ↗](https://github.com/Priyanshu-Shah/AlgoViz) · [Explore the interface ↗](https://algovizz.web.app/)
+<p><img src="assets/badges/python.svg" height="30" alt="Python"> <img src="assets/badges/flask.svg" height="30" alt="Flask"> <img src="assets/badges/react.svg" height="30" alt="React"> <img src="assets/badges/scikitlearn.svg" height="30" alt="scikit-learn"></p>
 
 <details>
 <summary><strong>A look inside PeerShare and AlgoViz</strong></summary>
@@ -183,4 +171,4 @@ Co-developed an interactive ML lab for **regression, KNN, decision trees, SVM, n
   </tr>
 </table>
 
-<sub>[Static graph](assets/activity/snake-light-static.svg) · [Portfolio](https://www.darshpatel.dev/) · [Résumé](https://www.darshpatel.dev/Darsh_Resume.pdf)</sub>
+<sub>[Static graph](assets/activity/snake-light-static.svg)</sub>
