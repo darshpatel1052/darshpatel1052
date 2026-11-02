@@ -3,12 +3,16 @@
   <img src="assets/hero/blackhole.gif" width="100%" alt="Darsh Patel — a starfield spirals into a black hole, bursts outward, and resolves into my name.">
 </picture>
 
-> “What I cannot create, I do not understand.”
-> — [Richard Feynman](https://calteches.library.caltech.edu/684/1/ES65.2.2002.pdf)
+> “Simplicity does not precede complexity, but follows it.”
+> — [Alan Perlis](https://engineering.yale.edu/academic-study/departments/computer-science/about/epigrams-programming)
 
-I'm Darsh, an **AI & Data Science student at IIT Jodhpur**. I like building things, reading the code behind the tools I use, and understanding why they work.
+I'm Darsh, an **AI & Data Science student at IIT Jodhpur**. I like making things I'd want to use, figuring out how other people built theirs, and following a question further than I originally meant to.
 
-I learn by trying an idea, reading the source, and working through what I don't understand yet. I enjoy both the thinking and the implementation, and I'm happy to pick up unfamiliar tools along the way.
+I tend to learn by picking up something a little beyond what I can comfortably do, then working my way through it. That usually involves reading source code, writing small experiments, and changing my mind a few times. Getting something running often leaves me with a longer list of things I want to understand.
+
+I've interned at **Oracle** and **Reetape**, contributed to open source, and been a **teaching assistant for Intro to Computer Science**. Working in someone else's codebase has taught me to ask better questions before changing things. Teaching has been another useful reality check: an idea can feel obvious until I try to explain it clearly.
+
+I also spend time on algorithms and competitive programming — I'm a **LeetCode Knight**. I like the patience and occasional stubbornness that a difficult problem asks for. Whether I'm working through one of those or building something larger, I care about understanding the choices I make and leaving behind code that someone else can follow.
 
 <p>
   <a href="https://www.darshpatel.dev/"><img src="assets/badges/portfolio.svg" height="30" alt="Portfolio — darshpatel.dev"></a>
