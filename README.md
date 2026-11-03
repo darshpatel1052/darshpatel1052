@@ -3,8 +3,14 @@
   <img src="assets/hero/blackhole.gif" width="100%" alt="Darsh Patel — a starfield spirals into a black hole, bursts outward, and resolves into my name.">
 </picture>
 
-> “Simplicity does not precede complexity, but follows it.”
-> — [Alan Perlis](https://engineering.yale.edu/academic-study/departments/computer-science/about/epigrams-programming)
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/widgets/quote-dark-static.png">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/widgets/quote-light-static.png">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/widgets/quote-dark.svg">
+  <img src="assets/widgets/quote-light.svg" width="650" alt="Simplicity does not precede complexity, but follows it.">
+</picture>
+
+— [Alan Perlis](https://engineering.yale.edu/academic-study/departments/computer-science/about/epigrams-programming)
 
 I'm Darsh, an **AI & Data Science student at IIT Jodhpur**. I like making things I'd want to use, figuring out how other people built theirs, and following a question further than I originally meant to.
 
@@ -118,19 +124,13 @@ I also spend time on algorithms and competitive programming — I'm a **LeetCode
 
 A video platform with **adaptive HLS, creator tools, and verified peer delivery**. Browsers can opt into sharing video segments over WebRTC; the player checks their hashes before playback and retains HTTP delivery.
 
-<p><img src="assets/badges/go.svg" height="30" alt="Go"> <img src="assets/badges/nextjs.svg" height="30" alt="Next.js"> <img src="assets/badges/webrtc.svg" height="30" alt="WebRTC"> <img src="assets/badges/kafka.svg" height="30" alt="Kafka"></p>
-
 ### 🛠 [DevSentinel](https://github.com/darshpatel1052/Devsentinel)
 
 A GitHub-native issue-repair assistant that **reproduces failures, investigates bounded fixes, verifies patches, and prepares draft pull requests** with evidence for review. Built as a locally runnable, single-operator tool; merging stays with the reviewer.
 
-<p><img src="assets/badges/typescript.svg" height="30" alt="TypeScript"> <img src="assets/badges/docker.svg" height="30" alt="Docker"> <img src="assets/badges/postgresql.svg" height="30" alt="PostgreSQL"> <img src="assets/badges/bullmq.svg" height="30" alt="BullMQ"></p>
-
 ### ◈ [AlgoViz](https://github.com/Priyanshu-Shah/AlgoViz)
 
-Co-developed an interactive ML lab for **regression, KNN, decision trees, SVM, neural networks, clustering, and PCA**, with core implementation across the React frontend and Flask backend. Change the data or a hyperparameter and inspect decision boundaries, clusters, and training curves.
-
-<p><img src="assets/badges/python.svg" height="30" alt="Python"> <img src="assets/badges/flask.svg" height="30" alt="Flask"> <img src="assets/badges/react.svg" height="30" alt="React"> <img src="assets/badges/scikitlearn.svg" height="30" alt="scikit-learn"></p>
+Co-developed an interactive ML lab for **regression, KNN, decision trees, SVM, neural networks, clustering, and PCA**, with core implementation across the interface and training backend. Change the data or a hyperparameter and inspect decision boundaries, clusters, and training curves.
 
 <details>
 <summary><strong>A look inside PeerShare and AlgoViz</strong></summary>
@@ -153,6 +153,34 @@ Co-developed an interactive ML lab for **regression, KNN, decision trees, SVM, n
 **[My original implementation · #18011 ↗](https://github.com/mastra-ai/mastra/pull/18011)** &nbsp; · &nbsp; **[Merged follow-up · #19650 ↗](https://github.com/mastra-ai/mastra/pull/19650)**
 
 **KnightVerse** — merged OpenAPI documentation and client SDK generation configuration. [PR #64 ↗](https://github.com/OpenKnight-Foundation/KnightVerse/pull/64)
+
+## 📊 GitHub & LeetCode
+
+<p>
+  <a href="https://github.com/darshpatel1052?tab=repositories">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/widgets/github-dark.svg">
+      <img src="assets/widgets/github-light.svg" width="49%" alt="GitHub statistics for darshpatel1052: stars, commits, pull requests, issues, and repositories contributed to.">
+    </picture>
+  </a>
+  <a href="https://github.com/darshpatel1052?tab=repositories">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/widgets/languages-dark.svg">
+      <img src="assets/widgets/languages-light.svg" width="49%" alt="Language distribution across my public GitHub repositories; repository counts, rather than a proficiency rating.">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://leetcode.com/u/darsh_0p/">
+    <picture>
+      <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/widgets/leetcode-dark-static.svg">
+      <source media="(prefers-reduced-motion: reduce)" srcset="assets/widgets/leetcode-light-static.svg">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/widgets/leetcode-dark.svg">
+      <img src="assets/widgets/leetcode-light.svg" width="500" alt="LeetCode statistics for darsh_0p, including problems solved by difficulty and contest rating history.">
+    </picture>
+  </a>
+</p>
 
 ## 🐍 Contributions
 

@@ -1,0 +1,46 @@
+name: Profile statistics
+
+on:
+  schedule:
+    - cron: "50 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/widgets.yml
+      - scripts/fetch-widgets.py
+      - assets/widgets/sources.json
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-koi
+  cancel-in-progress: false
+
+jobs:
+  widgets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the profile
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      - name: Refresh and validate the existing services' cards
+        run: python3 scripts/fetch-widgets.py --stats-only
+
+      - name: Publish changed statistic cards
+        shell: bash
+        run: |
+          git add -- assets/widgets/github-*.svg assets/widgets/languages-*.svg assets/widgets/leetcode-*.svg
+          if git diff --cached --quiet; then
+            echo "The statistic cards are unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --message "chore: refresh profile statistics"
+          git pull --rebase origin main
+          git push origin HEAD:main
