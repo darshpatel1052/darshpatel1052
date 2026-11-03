@@ -6,6 +6,7 @@
       <ul>
         <li>🔎 Reading source code and following another “why?”</li>
         <li>🛠️ Built with folks at <strong>Oracle</strong> and <strong>Reetape Technologies</strong>.</li>
+        <li>🏆 Made the <strong>Top 100 at Amazon HackOn</strong> and was selected for <strong>Amazon ML Summer School</strong> from 60,000+ applicants.</li>
         <li>💬 Happy to talk code or trade a good idea.</li>
       </ul>
 <p>
