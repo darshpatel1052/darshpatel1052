@@ -11,18 +11,6 @@
     "service": "GitHub Profile Summary Cards",
     "refresh": true
   },
-  "assets/widgets/leetcode-dark.svg": {
-    "url": "https://leetcard.jacoblin.cool/darsh_0p?theme=dark&font=Fira+Code&ext=contest&animation=true&border=0",
-    "label": "darsh_0p",
-    "service": "LeetCode Stats Card",
-    "refresh": true
-  },
-  "assets/widgets/leetcode-dark-static.svg": {
-    "url": "https://leetcard.jacoblin.cool/darsh_0p?theme=dark&font=Fira+Code&ext=contest&animation=false&border=0",
-    "label": "darsh_0p",
-    "service": "LeetCode Stats Card",
-    "refresh": true
-  },
   "assets/widgets/quote-dark.svg": {
     "url": "https://readme-typing-svg.demolab.com/?font=Fira+Code&size=21&duration=4200&pause=3000&color=58E6D9&width=650&height=84&multiline=true&lines=Simplicity+does+not+precede+complexity%2C%3Bbut+follows+it.",
     "label": "Simplicity does not precede complexity,",
@@ -41,22 +29,24 @@
     "service": "GitHub Profile Summary Cards",
     "refresh": true
   },
-  "assets/widgets/leetcode-light.svg": {
-    "url": "https://leetcard.jacoblin.cool/darsh_0p?theme=light&font=Fira+Code&ext=contest&animation=true&border=0",
-    "label": "darsh_0p",
-    "service": "LeetCode Stats Card",
-    "refresh": true
-  },
-  "assets/widgets/leetcode-light-static.svg": {
-    "url": "https://leetcard.jacoblin.cool/darsh_0p?theme=light&font=Fira+Code&ext=contest&animation=false&border=0",
-    "label": "darsh_0p",
-    "service": "LeetCode Stats Card",
-    "refresh": true
-  },
   "assets/widgets/quote-light.svg": {
     "url": "https://readme-typing-svg.demolab.com/?font=Fira+Code&size=21&duration=4200&pause=3000&color=176A4A&width=650&height=84&multiline=true&lines=Simplicity+does+not+precede+complexity%2C%3Bbut+follows+it.",
     "label": "Simplicity does not precede complexity,",
     "service": "Readme Typing SVG",
+    "refresh": false
+  },
+  "assets/widgets/skills-light.svg": {
+    "url": "https://skillicons.dev/icons?i=go%2Cpy%2Cts%2Cjs%2Creact%2Cnextjs%2Cnodejs%2Cfastapi%2Cpostgres%2Credis%2Cdocker%2Cpytorch%2Cc%2Ccpp%2Cjava%2Cgit%2Caws%2Cgcp&theme=light&perline=9",
+    "label": "",
+    "icon_count": 18,
+    "service": "Skill Icons",
+    "refresh": false
+  },
+  "assets/widgets/skills-dark.svg": {
+    "url": "https://skillicons.dev/icons?i=go%2Cpy%2Cts%2Cjs%2Creact%2Cnextjs%2Cnodejs%2Cfastapi%2Cpostgres%2Credis%2Cdocker%2Cpytorch%2Cc%2Ccpp%2Cjava%2Cgit%2Caws%2Cgcp&theme=dark&perline=9",
+    "label": "",
+    "icon_count": 18,
+    "service": "Skill Icons",
     "refresh": false
   }
 }

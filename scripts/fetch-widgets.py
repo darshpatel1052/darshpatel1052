@@ -25,13 +25,15 @@ def fetch(item):
     svg = ET.fromstring(data)
     assert svg.tag == "{http://www.w3.org/2000/svg}svg", f"Not an SVG: {path}"
     label = " ".join(svg.itertext()).casefold()
-    assert source["label"].casefold() in label, f"Unexpected card: {path}"
+    if source.get("icon_count"):
+        groups = svg.findall("./{http://www.w3.org/2000/svg}g")
+        assert len(groups) == source["icon_count"], f"Incomplete icon grid: {path}"
+    else:
+        assert source["label"].casefold() in label, f"Unexpected card: {path}"
     assert len(data) > 1000, f"Incomplete card: {path}"
     for error in ("something went wrong", "rate limit exceeded", "user not found", "could not resolve to a user", "failed to fetch", "internal server error", "deployment_disabled"):
         assert error not in label, f"Service error in {path}: {error}"
     assert b"<script" not in data.lower(), f"Unexpected script in {path}"
-    if "leetcode-" in path:
-        assert "contest rating" in label and "highest rating" in label, f"Missing contest data: {path}"
     if "github-" in path:
         assert "total prs" in label and "total commits" in label, f"Missing GitHub data: {path}"
     return path, data

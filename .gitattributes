@@ -1,0 +1,3 @@
+
+# Preserve formatting in the unmodified SVG output from Skill Icons.
+assets/widgets/skills-*.svg -whitespace

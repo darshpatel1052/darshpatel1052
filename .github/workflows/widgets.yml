@@ -34,7 +34,7 @@ jobs:
       - name: Publish changed statistic cards
         shell: bash
         run: |
-          git add -- assets/widgets/github-*.svg assets/widgets/languages-*.svg assets/widgets/leetcode-*.svg
+          git add -- assets/widgets/github-*.svg assets/widgets/languages-*.svg
           if git diff --cached --quiet; then
             echo "The statistic cards are unchanged."
             exit 0
