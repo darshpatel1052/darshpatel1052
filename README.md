@@ -5,8 +5,7 @@
       <p>An <strong>AI &amp; Data Science student at IIT Jodhpur</strong>. I like making things I'd want to use and figuring out how other people built theirs.</p>
       <ul>
         <li>🔎 Reading source code and following another “why?”</li>
-        <li>🛠️ Built with folks at <strong>Oracle</strong> and <strong>Reetape</strong>.</li>
-        <li>♟️ <strong>LeetCode Knight</strong> · former CS teaching assistant.</li>
+        <li>🛠️ Built with folks at <strong>Oracle</strong> and <strong>Reetape Technologies</strong>.</li>
         <li>💬 Happy to talk code or trade a good idea.</li>
       </ul>
 <p>
@@ -21,15 +20,7 @@
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero/blackhole-static.png">
   <img src="assets/hero/blackhole.gif" width="100%" alt="Darsh Patel — a starfield spirals into a black hole, bursts outward, and resolves into my name.">
 </picture>
-<br>
-<picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/widgets/quote-dark-static.png">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/widgets/quote-light-static.png">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/widgets/quote-dark.svg">
-  <img src="assets/widgets/quote-light.svg" width="100%" alt="Simplicity does not precede complexity, but follows it.">
-</picture>
-      <sub>— <a href="https://engineering.yale.edu/academic-study/departments/computer-science/about/epigrams-programming">Alan Perlis</a></sub>
-    </td>
+<br>   
   </tr>
 </table>
 
