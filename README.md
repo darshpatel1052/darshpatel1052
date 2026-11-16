@@ -2,7 +2,7 @@
   <tr>
     <td width="58%" valign="top">
       <h2>Hey, I'm Darsh 👋</h2>
-      <p>An <strong>Undergrad student at IIT Jodhpur</strong>. I like making things I'd want to use and figuring out how other people built theirs.</p>
+      <p>An <strong>Undergrad; student at IIT Jodhpur</strong>. I like making things I'd want to use and figuring out how other people built theirs.</p>
       <ul>
         <li>🔎 Reading source code and following another “why?”</li>
         <li>🛠️ Built with folks at <strong>Oracle</strong> and <strong>Reetape Technologies</strong>.</li>
