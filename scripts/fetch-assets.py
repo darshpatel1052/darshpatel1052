@@ -10,6 +10,8 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCES = json.loads((ROOT / "assets/sources.json").read_text())
 
 
+
+
 def fetch(item):
     path, source = item
     data = subprocess.check_output([
