@@ -8,6 +8,7 @@ import subprocess
 import xml.etree.ElementTree as ET
 
 
+
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = json.loads((ROOT / "assets/widgets/sources.json").read_text())
 parser = argparse.ArgumentParser(description=__doc__)
